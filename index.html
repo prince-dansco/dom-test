@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="card">
+        <p id="timeValue" onclick="timeOut()"> 00:00</p>
+        <button type="button" id="replayButton">Try again</button>
+        <div class="container">
+            <h1>Random Number Guessing Game</h1>
+            <span>Guessing game within the range,from 1 - 100
+            </span>
+            <form action="#">
+                <input type="text" id="displayResult">
+                <button type="submit" id="submitValue" onclick="play()">play</button>
+                <button  type="button" id="try" onclick="valueReset()">clear</button>
+            </form>
+            <p id="answer"></p>
+
+            <p id="atempts"></p>
+
+            <p id="correctGuess"></p>
+
+            <p id="incorrectGuess"></p>
+        </div>
+         </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>

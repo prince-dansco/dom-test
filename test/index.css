@@ -1,0 +1,19 @@
+*{
+    list-style: none;
+}
+body{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+p{
+background-color: white;
+color: black;
+font-size: 34px;
+align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+}

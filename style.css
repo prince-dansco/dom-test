@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border: none;
+    outline: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+
+    
+   
+      
+      min-height: 100vh;
+    }
+.container{
+    background: rgb(63,94,251);
+ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    padding: 20px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+
+}
+
+form input {
+    padding: 15px;
+    border: 0;
+    background-color: gray;
+    color: white;
+    text-align: right;
+    font-size: 1.3em;
+    border: none;
+ }
+ #timeValue{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    right: 590px;
+    top: 80px;
+ }
+#replayButton{
+    border: 0;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient(135deg, orange 60%, cyan);
+    padding: 12px;
+    border-radius: 2rem;
+    font-size: 18px;
+    position: absolute;
+    right: 444px;
+    top: 404px;
+}
+ form #submitValue {
+    border: 0;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient(
+      to right,
+      orange 20% 40%,
+      yellow 40% 60%,
+    );
+    border-radius: 1.7rem;
+    font-size: 18px;
+    padding: 19px;
+ }
+ form #try {
+    border: 0;
+    font-size: 15px;
+    color: white;
+    background: linear-gradient(45deg, red, blue);
+    border-radius: 2rem;
+    font-size: 18px;
+    padding: 15px;
+ }
+ #answer{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+ }
+ #atempts, #correctGuess, #incorrectGuess{
+   font-size: 21px;
+   color: rgb(245, 241, 241);
+ }
